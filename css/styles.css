@@ -4,7 +4,22 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-    color: red;
+html, body {
+    background-color: #ddd;
+}
 
+header {
+    background-color: #4d41c0;
+    color: #fff;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: unset;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
